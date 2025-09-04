@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Criação de sites">
+  
+    <defs>
+      <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#6EE7F9" />
+        <stop offset="100%" stop-color="#A78BFA" />
+      </linearGradient>
+      <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#34D399" />
+        <stop offset="100%" stop-color="#6EE7F9" />
+      </linearGradient>
+      <filter id="soft">
+        <feGaussianBlur stdDeviation="12" />
+      </filter>
+    </defs>
+    
+  <rect width="600" height="400" fill="#0b1220"/>
+  <rect x="60" y="60" width="480" height="280" rx="16" fill="#0f182b" stroke="url(#g1)"/>
+  <rect x="100" y="110" width="400" height="20" rx="8" fill="#A78BFA" opacity="0.5"/>
+  <rect x="100" y="150" width="300" height="20" rx="8" fill="#6EE7F9" opacity="0.6"/>
+  <rect x="100" y="190" width="240" height="20" rx="8" fill="#34D399" opacity="0.6"/>
+  <circle cx="520" cy="90" r="10" fill="#A78BFA"/>
+</svg>

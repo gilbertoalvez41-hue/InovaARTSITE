@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Marketing digital e crescimento">
+  
+    <defs>
+      <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#6EE7F9" />
+        <stop offset="100%" stop-color="#A78BFA" />
+      </linearGradient>
+      <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#34D399" />
+        <stop offset="100%" stop-color="#6EE7F9" />
+      </linearGradient>
+      <filter id="soft">
+        <feGaussianBlur stdDeviation="12" />
+      </filter>
+    </defs>
+    
+  <rect width="1200" height="600" fill="#0b1220"/>
+  <g filter="url(#soft)">
+    <circle cx="250" cy="180" r="130" fill="url(#g1)" opacity="0.7"/>
+    <circle cx="900" cy="120" r="110" fill="url(#g2)" opacity="0.7"/>
+    <circle cx="980" cy="440" r="140" fill="url(#g1)" opacity="0.7"/>
+    <circle cx="260" cy="450" r="150" fill="url(#g2)" opacity="0.7"/>
+  </g>
+  <g fill="none" stroke="#6EE7F9" stroke-width="4">
+    <path d="M120 480 C 260 300, 420 520, 600 360 S 980 260, 1080 160" opacity="0.7"/>
+  </g>
+  <g transform="translate(160,180)">
+    <rect x="0" y="0" width="380" height="260" rx="20" fill="#0f182b" stroke="#A78BFA" opacity="0.9"/>
+    <g transform="translate(30,40)" stroke="#94A3B8" stroke-width="3" fill="none">
+      <rect x="0" y="0" width="320" height="20" rx="6" fill="#A78BFA" opacity="0.3"/>
+      <rect x="0" y="50" width="260" height="20" rx="6"/>
+      <rect x="0" y="95" width="300" height="20" rx="6"/>
+      <rect x="0" y="140" width="180" height="20" rx="6"/>
+    </g>
+  </g>
+  <g transform="translate(650,160)">
+    <path d="M0 120 L120 0 L160 40 L40 160 Z" fill="url(#g2)" opacity="0.9"/>
+    <g stroke="#0b1220" stroke-width="6">
+      <line x1="32" y1="148" x2="180" y2="0"/>
+    </g>
+    <g transform="translate(220,60)">
+      <rect x="0" y="0" width="260" height="180" rx="18" fill="#0f182b" stroke="#6EE7F9"/>
+      <circle cx="70" cy="85" r="50" fill="url(#g1)"/>
+      <rect x="140" y="35" width="90" height="20" rx="6" fill="#A78BFA" opacity="0.6"/>
+      <rect x="140" y="70" width="90" height="20" rx="6" fill="#A78BFA" opacity="0.4"/>
+      <rect x="140" y="105" width="90" height="20" rx="6" fill="#A78BFA" opacity="0.2"/>
+    </g>
+  </g>
+</svg>
